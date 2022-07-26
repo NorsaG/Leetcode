@@ -43,6 +43,7 @@ public class ReversedLinkedList2 {
                 ListNode lastNode = reversedList;
                 while (lastNode.next != null) {
                     lastNode = lastNode.next;
+
                 }
                 lastNode.next = cursor.next;
                 break;
@@ -65,7 +66,6 @@ public class ReversedLinkedList2 {
 
         return newHead == null ? reversedList : newHead;
     }
-
 
     public static void main(String[] args) {
         ListNode ln1 = new ListNode(1);
