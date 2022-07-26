@@ -5,9 +5,10 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
+/**
+ * 2022-07-20
+ */
 public class MatchSubsequenceNumber {
-
-
     public int numMatchingSubseq(String s, String[] words) {
         Map<String, Integer> wordsMap = new HashMap<>();
         for (String w : words) {
